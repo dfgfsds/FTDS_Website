@@ -38,7 +38,7 @@ const Footer = () => {
 
             {/* Social Media Icons */}
             <div className="flex items-center gap-4 mt-6">
-              <a href="https://www.youtube.com/@FTDigitalSolutionsAgency" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/@ft_digital_solutions" target="_blank" rel="noopener noreferrer">
                 <Youtube className="text-3xl text-red-600 hover:text-red-700" />
               </a>
               <a href="https://www.instagram.com/ftdigitalsolutions/" target="_blank" rel="noopener noreferrer">
@@ -47,7 +47,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/people/FT-digital-solutions/61570253102261/" target="_blank" rel="noopener noreferrer">
                 <Facebook className="text-3xl text-blue-600 hover:text-blue-700" />
               </a>
-              <a href="https://www.linkedin.com/company/ft-digital-solutions/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/ft-digital-solutions-16745233b/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="text-3xl text-blue-700 hover:text-blue-800" />
               </a>
             </div>
@@ -116,7 +116,7 @@ const Footer = () => {
                 ['media-relations', 'Media Relations'],
                 ['celebrity-management-company-in-chennai', 'Celebrity Management'],
                 ['event-management-company-in-chennai', 'Event Management'],
-                ['crisis-and-preception-mangement', 'Crisis and Perception Management'],
+                ['crisis-&-preception-mangement', 'Crisis and Perception Management'],
                 ['print-and-editorial-services', 'Print & Editorial'],
                 ['digital-public-relations', 'Digital Public Relations']
               ].map(([slug, label]) => (
@@ -132,7 +132,7 @@ const Footer = () => {
         <div className="border-t mt-10 pt-4 flex flex-col md:flex-row justify-between text-gray-500 text-sm">
           <p>Copyright © FT Digital Solutions 2025</p>
           <div className="flex space-x-4">
-            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/privacyPolicy">Privacy Policy</Link>
             <span>|</span>
             <Link href="/termsAndCondition">Terms And Condition</Link>
             <span>|</span>

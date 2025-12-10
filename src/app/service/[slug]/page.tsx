@@ -1,4 +1,4 @@
-import servicesData from "../../../../data/ServiceFiles.json";
+import servicesData from "../../../data/ServiceFiles.json";
 import ServicePageClient from "@/components/ServicePageClient";
 
 export async function generateStaticParams() {
