@@ -1,29 +1,19 @@
-import servicesData from "../../../data/ServiceFiles.json";
+import servicesData from "@/app/data/ServiceFiles.json";
 import ServicePageClient from "@/components/ServicePageClient";
 
+type ServicesDataType = typeof servicesData;
+type ServiceSlug = keyof ServicesDataType;
+
 export async function generateStaticParams() {
-  // Get all service slugs from the JSON data
-  const slugs = Object.keys(servicesData);
-  return slugs.map((slug) => ({
-    slug: slug,
-  }));
+    return Object.keys(servicesData).map((slug) => ({ slug }));
 }
 
-export default function ServicePage({ params }: { params: { slug: string } }) {
-  const { slug } = params;
-  let data = servicesData[slug as keyof typeof servicesData];
+export default async function ServicePage(props: { params: Promise<{ slug: string }> }) {
+    const { slug } = await props.params;
 
-  if (!data) {
-    data = servicesData["default-content"];
-  }
+    const key = (slug in servicesData ? slug : "default-content") as ServiceSlug;
 
-  if (!data) {
-    return (
-      <div className="flex items-center justify-center min-h-screen text-gray-600">
-        <p>Service not found.</p>
-      </div>
-    );
-  }
+    const data = servicesData[key];
 
-  return <ServicePageClient data={data} />;
+    return <ServicePageClient data={data} />;
 }
