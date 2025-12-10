@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 993 159" width="993" height="159">
+	<title>download (1)</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1396.472,0,0,214.297,-406.969,-158.203)">
+			<stop offset="0" stop-color="#c2c9dd"/>
+			<stop offset="1" stop-color="#dee2ed"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: #ffffff } 
+		.s1 { opacity: .66;fill: url(#g1) } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m1 158v1h992v-159h-1c0 19.9-16.1 36-36 36h-911.7c-15.5 0-28 12.5-28 28v80c0 7.7-6.3 14-14 14z"/>
+	<g>
+		<path fill-rule="evenodd" class="s1" d="m1 157h0.5c7.4 0.2 13.5-5.7 13.4-13.1l-0.3-79.8c-0.1-16 13-29.1 29-29.1h912.4c17.3 0 31.6-12.5 34.5-29h1c-2.9 17-17.7 30-35.5 30h-912.4c-15.5 0-28 12.6-28 28.1l0.3 79.8c0.1 8-6.5 14.4-14.5 14.1h-0.4z"/>
+	</g>
+</svg>

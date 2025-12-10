@@ -1,0 +1,61 @@
+{
+    "FT Digital Solutions SMO Packages": {
+      "Basic": {
+        "Price": "$550/Mo",
+        "Platforms": "Up to 2 Platforms",
+        "Profile Optimization": true,
+        "Create Social Media Calendar": true,
+        "No. of Creatives": 15,
+        "Post Boosting": true,
+        "Boosted Posts Per Month": 3,
+        "Advertisement Strategy": true
+      },
+      "Pro": {
+        "Price": "$750/Mo",
+        "Platforms": "Up to 3 Platforms",
+        "Profile Optimization": true,
+        "Create Social Media Calendar": true,
+        "No. of Creatives": 22,
+        "Post Boosting": true,
+        "Boosted Posts Per Month": 8,
+        "Advertisement Strategy": true
+      },
+      "Elite": {
+        "Price": "$950/Mo",
+        "Platforms": "Up to 4 Platforms",
+        "Profile Optimization": true,
+        "Create Social Media Calendar": true,
+        "No. of Creatives": 30,
+        "Post Boosting": true,
+        "Boosted Posts Per Month": 10,
+        "Advertisement Strategy": true
+      }
+    },
+    "Digital Marketing Packages": {
+      "Starter": {
+        "Price": "$2500/Mo",
+        "Keywords Target (Primary)": "Up to 50",
+        "Search Terms Tracking (Real Time)": 100,
+        "ROI": "Minimum 2X",
+        "Ideal for": "Growing Small Business / Single Location",
+        "ROI Factors": "Rankings + Traffic + Boost in Sales/Leads"
+      },
+      "Booster": {
+        "Price": "$3500/Mo",
+        "Keywords Target (Primary)": "Up to 100",
+        "Search Terms Tracking (Real Time)": 200,
+        "ROI": "Minimum 3X",
+        "Ideal for": "Lead Based Businesses",
+        "ROI Factors": "Rankings + Traffic + Boost in Social Media Presence + Minimum 100 leads expected"
+      },
+      "Premium": {
+        "Price": "$5000/Mo",
+        "Keywords Target (Primary)": "Up to 150",
+        "Search Terms Tracking (Real Time)": 350,
+        "ROI": "Minimum 5X",
+        "Ideal for": "E-Commerce / Manufacturing Companies",
+        "ROI Factors": "Rankings + Traffic + Boost in Social Media Presence + Minimum 5X worth business"
+      }
+    }
+  }
+  
