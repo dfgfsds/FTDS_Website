@@ -94,7 +94,7 @@ const Navbar = () => {
                         { label: "Media Relations", value: "/service/media-relations" },
                         { label: "Celebrity Management", value: "/service/celebrity-management-company-in-chennai" },
                         { label: "Event Management", value: "/service/event-management-company-in-chennai" },
-                        { label: "Crisis and Perception Management", value: "/service/crisis-&-preception Management" },
+                        { label: "Crisis and Perception Management", value: "/service/crisis-and-preception-mangement" },
                         { label: "Print & Editorial", value: "/service/print-and-editorial-services" },
                         { label: "Digital Public Relations", value: "/service/digital-public-relations" },
                     ],
@@ -221,7 +221,7 @@ const Navbar = () => {
                                                             <li className="cursor-pointer" onClick={() => handleNavigate('media-relations')}>Media Relations</li>
                                                             <li className="cursor-pointer" onClick={() => handleNavigate('celebrity-management-company-in-chennai')}>Celebrity Management</li>
                                                             <li className="cursor-pointer" onClick={() => handleNavigate('event-management-company-in-chennai')}>Event Management </li>
-                                                            <li className="cursor-pointer" onClick={() => handleNavigate('crisis-&-preception-mangement')}>Crisis and Perception Management</li>
+                                                            <li className="cursor-pointer" onClick={() => handleNavigate('crisis-and-preception-mangement')}>Crisis and Perception Management</li>
                                                             <li className="cursor-pointer" onClick={() => handleNavigate('print-and-editorial-services')}>Print & Editorial</li>
                                                             <li className="cursor-pointer" onClick={() => handleNavigate('digital-public-relations')}>Digital Public Relations</li>
                                                         </ul>
