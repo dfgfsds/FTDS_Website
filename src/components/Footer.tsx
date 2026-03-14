@@ -132,7 +132,7 @@ const Footer = () => {
         <div className="border-t mt-10 pt-4 flex flex-col md:flex-row justify-between text-gray-500 text-sm">
           <p>Copyright © FT Digital Solutions 2025</p>
           <div className="flex space-x-4">
-            <Link href="/privacyPolicy">Privacy Policy</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
             <span>|</span>
             <Link href="/termsAndCondition">Terms And Condition</Link>
             <span>|</span>
