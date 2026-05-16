@@ -4,20 +4,21 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const logos: string[] = [
-  "BMC-logo-blue.svg",
-  "OM SRI TARA-03.png",
-  "ftdc logo-01.jpg",
-  "self-tune-final-png.png",
-  "tn computers-01.png",
-  "chokurei tax partners logo 001-01.png",
-  "1evolve logo b copy.png",
-  "logo (1).jpeg",
-  "6ba1968b-45e8-48a4-a99e-5d3970c2a189-removebg-preview.png",
-  "LA Athulyam_Logo_File-01.png",
-  "tosh-new.png",
-  "milkpot Logo.png",
-  "hayaLogo1.png",
-  "ftdsHlogo.png",
+    "1.png",
+    "2.png",
+    "3.svg",
+    "4.png",
+    "5.jpg",
+    "6.png",
+    "7.png",
+    "8.png",
+    "9.jpeg",
+    "10.png",
+    "11.png",
+    "12.png",
+    "13.png",
+    "14.png",
+    "15.png",
 ];
 
 function MarqueeRow({
@@ -60,7 +61,7 @@ function MarqueeRow({
                 </div>
 
                 {/* Copy 2 */}
-                {/* <div className="flex gap-6 sm:gap-10 w-1/2">
+                <div className="flex gap-6 sm:gap-10 w-1/2">
                     {logos.map((src, idx) => (
                         <div
                             key={`dup-${idx}`}
@@ -69,13 +70,13 @@ function MarqueeRow({
               rounded-lg shadow-md bg-white p-2 sm:p-4 flex-shrink-0"
                         >
                             <img
-                                src={src}
+                                src={`/assets/img/logos/${src}`}
                                 alt="client logo"
                                 className="max-h-full max-w-full object-contain"
                             />
                         </div>
                     ))}
-                </div> */}
+                </div>
             </motion.div>
         </div>
     );
