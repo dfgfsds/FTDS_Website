@@ -31,19 +31,18 @@ function MarqueeRow({
     return (
         <div className="overflow-hidden relative w-full py-3 sm:py-4">
             <motion.div
-                className="flex gap-6 sm:gap-10"
+                className="flex w-fit"
                 animate={{
-                    x: direction === "right" ? ["-100%", "0%"] : ["0%", "-100%"],
+                    x: direction === "right" ? ["-50%", "0%"] : ["0%", "-50%"],
                 }}
                 transition={{
                     repeat: Infinity,
                     duration: speed,
                     ease: "linear",
                 }}
-                style={{ width: "200%" }} // make space for 2 sets
             >
                 {/* Copy 1 */}
-                <div className="flex gap-6 sm:gap-10 w-1/2">
+                <div className="flex gap-6 sm:gap-10 px-3 sm:px-5">
                     {logos.map((src, idx) => (
                         <div
                             key={idx}
@@ -61,7 +60,7 @@ function MarqueeRow({
                 </div>
 
                 {/* Copy 2 */}
-                <div className="flex gap-6 sm:gap-10 w-1/2">
+                <div className="flex gap-6 sm:gap-10 px-3 sm:px-5">
                     {logos.map((src, idx) => (
                         <div
                             key={`dup-${idx}`}
